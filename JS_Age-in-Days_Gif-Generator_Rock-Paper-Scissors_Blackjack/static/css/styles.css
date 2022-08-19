@@ -1,0 +1,293 @@
+body{
+    margin: 0;
+    background-color: turquoise; 
+    word-spacing: 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 100%;
+    background-image: url(img/galaxy.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    color: white;
+}
+
+#main-header{
+    background-color: #131D47;
+    color: white;
+    font-weight: bolder;
+    padding: 1px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+
+#main-header h2{
+    width: 80%;
+}
+
+#main-footer{
+    margin-top: 150px;
+    color:  lightslategray;
+    text-align: center;
+}
+
+.container{
+    width: 1100px;
+    margin: auto;
+    border: 5px lightskyblue solid;
+    background-color: rgb(5, 80, 131);
+    border-radius: 20px;
+}
+
+input{
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+/*CHALLENGE 1*/
+
+#age-in-days h3{
+    border-bottom:3.5px darkblue solid;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#age-content{
+    margin: 30px;
+    display: flex;
+}
+
+#age-buttons{
+    margin: 30px;
+    display: flex;
+}
+
+#lbl-age{
+    padding: 15px;
+    margin-left: 150px;
+    font-size: 18px;
+}
+
+#lbl-result{
+    margin-left: 18%;
+    padding: 15px;
+    font-weight: bolder;
+    color: red;
+    font-size: 18px;
+}
+
+#txt-age{
+    text-align: center;
+    border:white 15px;
+    border-radius: 5px;
+    height: 38px;
+    font-size: 15px;
+}
+
+
+#age-submit{
+    background-color: lightseagreen;
+    border-radius: 10px;
+    padding: 10px 35px;
+    margin: 0px 280px;
+    font-size: 15px;
+}
+
+#age-reset{
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 10px 47px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+/* CHALLENGE 2*/
+
+#gif-button{
+    margin-top: 2px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    padding: 10px 27px;
+    margin: 30px 310px;
+    font-size: 15px;
+}
+
+#gif-reset{
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 10px 25px; 
+    margin-left: -8px;
+    font-size: 15px;
+}
+
+#gif-area{
+    border-top: 3.5px darkblue solid;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px; 
+    justify-content: space-around;
+}
+
+#gif-area img{
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+#gif-content h3{
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+
+
+/*CHALLENGE 3*/
+
+/* Containers */
+#rps{
+    text-align: center;
+    border-bottom: 3.5px darkblue solid;
+}
+
+#play-rps{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#rps h3{
+    margin-bottom: 0;
+}
+
+#rps sub{
+    color: crimson;
+}
+
+/* playable images */
+#play-rps img{
+    margin: 20px;
+}
+
+#rock, #paper, #scissors{
+    border-radius: 20px;  
+    height: 145px;
+}
+
+/* CHALLENGE 4 */
+
+
+#blackjack-header{
+    border-bottom: 3.5px black solid;
+    text-align: center;
+}
+
+#blackjack-header h4{
+    margin-top: 0;
+}
+
+#blackjack-scores{
+    background-color: rgba(18, 99, 18, 0.932);
+    color: white;
+}
+
+#blackjack-buttons{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgba(18, 99, 18, 0.932);
+}
+
+#blackjack-buttons-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px black solid;
+}
+
+#blackjack-standing{
+    margin-top: 20px;
+}
+
+#blackjack-table, #blackjack-scores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#user-score, #dealer-score{
+    margin-bottom: 10px;
+    flex: 1;
+    height: 350px;
+    text-align: center;
+    border: 2px black solid;
+}
+
+#user-score img{
+    height: 35%;
+    padding: 5px;
+}
+
+#dealer-score img{
+    height: 35%;
+    padding: 5px;
+}
+
+/* buttons */
+#blackjack-hit{
+    margin-top: 2px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    padding: 10px 37px;
+    margin: 4px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#blackjack-stand{
+    margin-top: 2px;
+    background-color: rgb(44, 44, 247);
+    border-radius: 10px;
+    padding: 10px 27px;
+    margin: 4px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+}
+
+#blackjack-deal{
+    margin-top: 2px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px 32px;
+    margin: 4px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+/* table */
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+/* hover effects */
+#paper:hover{
+    box-shadow: 0px 10px 50px #0d3b4c;
+}
+
+#rock:hover{
+    box-shadow: 0px 10px 50px #0d3b4c;
+}
+
+#scissors:hover{
+    box-shadow: 0px 10px 50px #0d3b4c;
+}

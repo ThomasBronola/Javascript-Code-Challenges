@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenges</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+
+<body >
+    <!-- HEADER-->
+    <header id="main-header"> 
+        <h2 style="text-align: center; margin-left: 10%;">Manual Coded Javascript Challenges</h2>
+    </header>
+    
+    <!-- CHALLENGE 1-->
+    <div class="container">
+        <section id="age-in-days">
+            <h3>Your Age in Days</h3>
+            <section id="age-content">
+                <label id="lbl-age">Your Age:</label>
+                <input type="text" name="submit" placeholder="Enter Age" id="txt-age">
+                <label id="lbl-result"></label>
+            </section>
+
+            <section id="age-buttons">
+                <input type="button" name="age-submit" value="Submit" id="age-submit" onclick="submit()">
+                <input type="button" name="age-reset" value="Reset" id="age-reset" onclick="reset()">
+            </section>
+        </section>
+    </div>
+
+    <!--Seperating the Challenges-->
+    <div style="margin-top: 50px;"></div>
+
+    <!-- CHALLENGE 2-->
+    <div class="container">
+        <section id=gif-content>
+            <h3>Gif Generator</h3>
+            <input type="button" name="Generate" value="Generate" id="gif-button" onclick="gif()">
+            <input type="button" name="Reset" value="Remove Last GIF" id="gif-reset" onclick="reset_gif()">
+        </section>
+
+        <section id="gif-area">
+           <!--GIFS GO HERE-->
+        </section>
+    </div>
+
+
+    <!--Seperating the Challenges-->
+    <div style="margin-top: 50px;"></div>
+
+
+
+    <!-- CHALLENGE 3-->
+    <div class="container">
+        <section id="rps">
+            <h3>Rock, Paper, Scissors</h3>
+            <sub><i>To play again press the result after the game</i></sub>
+        </section>
+
+        <section id="play-rps">
+            <div class="rps-container">
+                <img id="rock" onclick="rpsGame(this)" src="static/css/img/rock.png">
+            </div>
+            <div class="rps-container">
+                <img id="paper" onclick="rpsGame(this)" src="static/css/img/paper.png">
+            </div>
+            <div class="rps-container">
+                <img id="scissors" onclick="rpsGame(this)" src="static/css/img/scissors.png">
+            </div>                     
+        </section>
+    </div>
+
+
+
+     <!--Seperating the Challenges-->
+     <div style="margin-top: 50px;"></div>
+
+
+
+    <!-- CHALLENGE 4-->
+    <div class="container">
+        <div id="blackjack-header">
+            <h2>Black Jack</h2>
+            <h3><span id=blackjack-result>Lets Play!</span></h3>
+        </div>
+
+        <div id="blackjack-scores">
+            <div id="user-score">
+                <h2>You: <span id=user-result>0</span></h2>
+            </div>
+            <div id="dealer-score">
+                <h2>Dealer: <span id=dealer-result>0</span></h2>
+            </div>    
+        </div>
+
+        <div id="blackjack-buttons">
+            <div id="blackjack-buttons-div">
+                <button id="blackjack-hit">Hit</button>
+                <button id="blackjack-stand">Stand</button>
+                <button id="blackjack-deal">Deal</button>
+            </div>
+        </div>
+
+        <div id="blackjack-standing">
+            <div id="blackjack-table">
+                <table>
+                    <tr>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Draws</th>
+                    </tr>
+                    <tr>    
+                        <td><span id="wins">0</span></td>
+                        <td><span id="losses">0</span></td>
+                        <td><span id="draws">0</span></td>
+                    </tr>
+                </table>
+          </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER-->
+    <footer id="main-footer">
+        <p>Copyright of 2020 by Thomas Broñola</p>
+    </footer>
+
+    <script src="static/js/main.js"></script>
+</body>
+</html>
